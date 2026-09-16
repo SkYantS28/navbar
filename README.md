@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+# 🧭 Navbar — React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto desenvolvido em **React** para criação e prática de uma **barra de navegação (Navbar)** para aplicações web.
 
-## Available Scripts
+Este projeto faz parte dos estudos de desenvolvimento frontend e foi criado utilizando **Create React App**, explorando a organização de uma aplicação React e a construção de componentes de interface.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 💻 Tecnologias
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* React
+* JavaScript
+* HTML5
+* CSS3
+* Node.js
+* npm
+* Create React App
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📌 Sobre o projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A aplicação apresenta uma **Navbar desenvolvida com React**, permitindo praticar a construção de interfaces através de componentes.
 
-### `npm run build`
+O projeto utiliza a estrutura padrão do **Create React App**, com separação entre arquivos públicos e código-fonte da aplicação.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Principais conceitos praticados
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Criação de componentes React
+* Estruturação de interfaces
+* Organização de projetos frontend
+* Utilização de JavaScript com React
+* Estilização de componentes
+* Gerenciamento de dependências com npm
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📂 Estrutura
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```text
+navbar/
+│
+├── public/
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+│
+├── src/
+│   └── arquivos da aplicação React
+│
+├── package.json
+├── package-lock.json
+└── README.md
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ⚙️ Como executar
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Clone o repositório:
 
-## Learn More
+```bash
+git clone https://github.com/SkYantS28/navbar.git
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Entre na pasta:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+cd navbar
+```
 
-### Code Splitting
+Instale as dependências:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm install
+```
 
-### Analyzing the Bundle Size
+Execute o projeto:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm start
+```
 
-### Making a Progressive Web App
+A aplicação ficará disponível em:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```text
+http://localhost:3000
+```
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📦 Build
 
-### Deployment
+Para gerar a versão de produção:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+npm run build
+```
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🎯 Objetivo
+
+Praticar o desenvolvimento de interfaces frontend utilizando **React**, com foco na criação e organização de componentes e na construção de uma barra de navegação.
+
+---
+
+## 👩‍💻 Autora
+
+**Sky Crizosti**
+
+Estudante de Engenharia de Software.
+
+---
+
+## 🔗 Repositório
+
+[GitHub — SkYantS28/navbar](https://github.com/SkYantS28/navbar)
